@@ -83,3 +83,17 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+/*
+|--------------------------------------------------------------------------
+| Custom Constants
+|--------------------------------------------------------------------------
+*/
+define('SITE_NAME', 'CI Starter Project');
+
+define('DATETIME_ZONE', 'Asia/Singapore');
+define('SYSTEM_DATETIME_FORMAT', 'Y-m-d H:i:s');
+define('SYSTEM_DATE_FORMAT', 'Y-m-d');
+define('DISPLAY_DATETIME_FORMAT', 'd M Y, H:i:s');
+define('DISPLAY_DATE_FORMAT', 'd M Y');
+define('DISPLAY_RFC_FORMAT', 'r');

@@ -1,4 +1,4 @@
-Plain Starter Project
+CI Starter Project
 =====
 
 This project is meant to serve as a starting point for all of my future CodeIgniter projects.
