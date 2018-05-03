@@ -2,6 +2,6 @@
 ?><footer>
 <hr>
 <p class="text-right text-secondary font-italic">
-    Davina Leong &middot; <?= dt_now('Y'); ?>
+    <small><?= SITE_NAME; ?>, Davina Leong <?= dt_now('Y'); ?></small>
 </p>
 </footer>
