@@ -17,8 +17,10 @@
                 <li>Font Awesome 5</li>
                 <li>Gulp</li>
             </ul>
-        </div>
 
+            <?php $this->load->view('_snippets/footer'); ?>
+        </div>
+        
         <?php $this->load->view('_snippets/body_resources'); ?>
     </body>
 </html>
